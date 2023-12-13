@@ -1,10 +1,10 @@
-All codes and data are in the file “5800project”. You can run it by typing “python driver.py” in cmd if you have Python installed on your device. 
-The data we used is in data.csv. 
-We also have a Naïve model that generates random patients. You can run it by typing “python driver_mock.py”. 
-This naive model mocks the patient waiting queue in a hospital lobby and assume most patients are in OPD. 
+All codes and data are in the file “5800project”. You can run it by opening “driver.ipynb” in Jupyter Notebook if you have it installed on your device. 
+The data we used is in data.csv. We also have a naive model that generates random patients. You can run it by opening “driver_mock.ipynb” in Jupyter Notebook. 
+This naive model generates random patients that mocks the patient waiting queue in a hospital lobby and assume most patients are in OPD. 
 We only consider the doctor resources instead of beds and other treatment resources. 
 You can understand it as a fast-paced hospital that each patient will not take over 3 hours to treat. 
 This kind of hospital usually exists in regions where family doctors are not common, such as Hong Kong. 
+We also have a few more assumptions, all of them are written in README.md.
 
 We implemented the traditional way of queuing model to provide a comparison with our greedy algorithm. The traditional queuing model can be found in Queue.py. 
 Users can run it by commenting out the sort() function and uncommenting the traditional sort() function
